@@ -1,0 +1,54 @@
+﻿
+
+<Card>
+	<CardBody>
+		<Carousel @bind-SelectedSlide="@selectImage">
+			@foreach (var photo in product.PhotoProduct)
+			{
+				<CarouselSlide Name="@photo.Id.ToString()">
+					<CardImage Source="@($"data:image/png;base64,{Convert.ToBase64String(photo.Photo)}")" />
+				</CarouselSlide>
+			}
+		</Carousel>
+		<CardTitle>@product.Name</CardTitle>
+		<CardText>@product.Description</CardText>
+		<div class="d-flex w-100">
+			<CardText>@productPrice</CardText>
+			<Button Class="m-2" Clicked="ChangeVolute">@Volutes[indexVolute]</Button>
+		</div>
+	</CardBody>
+</Card>
+
+@code {
+	[Parameter]
+	public Product product { get; set; }
+
+	private double productPrice;
+	private string selectImage { get; set; }
+
+	private int indexVolute = 0;
+	private List<string> Volutes = new List<string>() { "RUB","USD", "EUR", "AUD" };
+
+	protected override async Task OnParametersSetAsync()
+	{
+		await ChangePrice();
+	}
+
+	private async Task ChangeVolute(MouseEventArgs args)
+	{
+		indexVolute++;
+		if (indexVolute >= Volutes.Count)
+			indexVolute = 0;
+		await ChangePrice();
+	}
+	private async Task ChangePrice()
+	{
+		productPrice =await product.PriceInVolute(Volutes[indexVolute]);
+		await InvokeAsync(StateHasChanged);
+	}
+}
+<style>
+	.d-flex{
+		align-items:center;
+	}
+</style>

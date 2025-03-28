@@ -1,0 +1,39 @@
+﻿@page "/AdminPanel"
+@inject NavigationManager NavigationManager
+<h3>AdminPanelPage</h3>
+
+<Div>
+	<Button Clicked="Add">Add</Button>
+</Div>
+
+@if (DataManager.Products.Count > 0)
+{
+	<CardDeck>
+		@foreach (var product in DataManager.Products)
+		{
+			<ProductComponent product="@product"></ProductComponent>
+			<Button Clicked='@(()=>NavigationManager.NavigateTo($"/Product/Id:{product.Id}"))'>Edit</Button>
+			<Button Clicked="()=>Remove(product)">Remove</Button>
+		}
+	</CardDeck>
+}
+@code {
+	protected override async Task OnInitializedAsync()
+	{
+		if (StaticClass.UserAuth != null && StaticClass.UserAuth.RoleId != 2)
+			NavigationManager.NavigateTo("/");
+
+	}
+	private void Add(MouseEventArgs args)
+	{
+		NavigationManager.NavigateTo("/Product/Id:0");
+	}
+	private void Edit(MouseEventArgs args)
+	{
+
+	}
+	private async Task Remove(Product product)
+	{
+		await NetManager.Delete($"api/Products/{product.Id}");
+	}
+}

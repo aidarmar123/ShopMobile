@@ -1,0 +1,46 @@
+﻿@page "/Login"
+@using System.ComponentModel.DataAnnotations
+@layout AuthoriztionLayout
+@inject NavigationManager NavigationManager
+@inject IJSRuntime jSRuntime
+
+<EditForm Model="@contextUser" FormName="Login" OnValidSubmit="Authorization">
+	<DataAnnotationsValidator />
+	<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
+
+	<div>
+		<label>Login:</label>
+		<InputText @bind-Value="@contextUser.Login" />
+	</div>
+
+	<div>
+		<label>Password:</label>
+		<InputText @bind-Value="@contextUser.Password" />
+	</div>
+
+	<Button type="ButtonType.Submit">Login</Button>
+</EditForm>
+<Button Clicked="Regestr">Regestration</Button>
+
+@code {
+	private AuthUser contextUser { get; set; } = new AuthUser();
+
+	private async Task Authorization(EditContext args)
+	{
+		StaticClass.SetUserAuth(contextUser.Login, contextUser.Password);
+		if (StaticClass.UserAuth != null)
+			await jSRuntime.InvokeVoidAsync("history.back");
+	}
+	private void Regestr(MouseEventArgs args)
+	{
+		NavigationManager.NavigateTo("/Registration");
+	}
+
+	private class AuthUser()
+	{
+		[Required]
+		public string Login{ get; set; }
+		[Required]
+		public string Password { get; set; }
+	}
+}

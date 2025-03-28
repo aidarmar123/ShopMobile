@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="476f2bf65ae64ff39852ffba98a9d286" Name="Diagram1">
+        <EntityTypeShape EntityType="ShopMobileModel.Category" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopMobileModel.Order" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopMobileModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopMobileModel.PhotoProduct" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopMobileModel.Product" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopMobileModel.Role" Width="1.5" PointX="1.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopMobileModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopMobileModel.User" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="ShopMobileModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopMobileModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopMobileModel.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopMobileModel.FK_OrderProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopMobileModel.FK_PhotoProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopMobileModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

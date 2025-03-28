@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopMobileWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShopMobileWebApp.fv0sg5gcbm.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShopMobileWebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShopMobileWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ShopMobileWebApp.props",
+      "PackagePath": "build\\ShopMobileWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ShopMobileWebApp.props",
+      "PackagePath": "buildMultiTargeting\\ShopMobileWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ShopMobileWebApp.props",
+      "PackagePath": "buildTransitive\\ShopMobileWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

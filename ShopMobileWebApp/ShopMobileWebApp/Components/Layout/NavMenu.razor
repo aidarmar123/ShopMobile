@@ -1,0 +1,31 @@
+﻿<Bar Alignment="Alignment.Center" Breakpoint="Breakpoint.Desktop">
+	<BarBrand>
+		Shop Mobile
+	</BarBrand>
+	<BarMenu>
+		<BarStart>
+			<BarItem>
+				<BarLink To="/">Home</BarLink>
+			</BarItem>
+
+			<BarItem>
+				<BarLink To="/Products">Products</BarLink>
+			</BarItem>
+
+			<BarItem>
+				<BarLink To="/Basket">Basket</BarLink>
+			</BarItem>
+			<BarItem>
+				<BarLink To="/Account">Account</BarLink>
+			</BarItem>
+			@if(StaticClass.UserAuth!=null && StaticClass.UserAuth.RoleId == 2)
+			{
+				<BarItem>
+					<BarLink To="/AdminPanel">Admin Panel</BarLink>
+				</BarItem>
+			}
+
+		</BarStart>
+
+	</BarMenu>
+</Bar>

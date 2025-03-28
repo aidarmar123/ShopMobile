@@ -1,0 +1,45 @@
+﻿@page "/Registration"
+@inject NavigationManager NavigationManager
+@layout AuthoriztionLayout
+<PageTitle>Registartion</PageTitle>
+
+<EditForm Model="@contextUser" FormName="Registration" OnValidSubmit="SaveUser">
+	<DataAnnotationsValidator/>
+	<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
+
+	<div>
+		<Label>Name</Label><br />
+		<InputText @bind-Value="@contextUser.Name"/>
+	</div>
+
+	<div>
+		<Label>Login</Label><br />
+		<InputText @bind-Value="@contextUser.Login"/>
+	</div>
+
+
+		<Label>Password</Label><br />
+		<InputText @bind-Value="@contextUser.Password"/>
+	
+
+	<div>
+		<Label>Role</Label>
+		<InputSelect @bind-Value="@contextUser.RoleId">
+			@foreach(var role in DataManager.Roles)
+			{
+				<option value="@role.Id">@role.Name</option><br>
+			}
+		</InputSelect>
+	</div>
+
+	<Button class="btn-primary" type="ButtonType.Submit">Save</Button>
+</EditForm>
+
+@code {
+	private User contextUser = new User();
+	private async Task SaveUser(EditContext args)
+	{
+		await StaticClass.NewUser(contextUser);
+		NavigationManager.NavigateTo("/");
+	}
+}

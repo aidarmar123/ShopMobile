@@ -1,0 +1,99 @@
+﻿@page "/Product/Id:{Id:int}"
+@inject IJSRuntime jSRuntime
+<PageTitle>Product</PageTitle>
+<h3>Product</h3>
+<EditForm Model="@contextProduct" FormName="ProductSave" OnValidSubmit="SaveProduct">
+	<DataAnnotationsValidator />
+	<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
+
+	<div>
+		<Label>Name</Label><br />
+		<InputText @bind-Value="@contextProduct.Name" />
+	</div>
+
+	<div>
+		<Label>Description</Label><br />
+		<InputTextArea @bind-Value="@contextProduct.Description" />
+	</div>
+
+	<div>
+		<Label>Price in rub</Label><br />
+		<InputNumber @bind-Value="@contextProduct.PriceRub" />
+	</div>
+
+	<div>
+		<Label>Category</Label>
+		<InputSelect @bind-Value="@contextProduct.CategoryId">
+			@foreach (var category in DataManager.Categorys)
+			{
+				<option value="@category.Id">@category.Name</option>
+			}
+		</InputSelect>
+	</div>
+
+	<div>
+		<Label>Photos</Label>
+		<InputFile OnChange="AddPhoto" multiple accept="image"></InputFile>
+		@if (contextProduct.PhotoProduct.Count > 0)
+		{
+			<div class="d-inline">
+				@foreach (var photo in contextProduct.PhotoProduct)
+				{
+					<img width="200" height="200" src='@($"data:image/png;base64,{Convert.ToBase64String(photo.Photo)}")'>
+				}
+			</div>
+		}
+	</div>
+
+
+
+	<Button class="btn-primary" type="ButtonType.Submit">Save</Button>
+</EditForm>
+
+@code {
+	[Parameter]
+	public int Id { get; set; }
+	private Product contextProduct { get; set; }
+
+	protected override void OnInitialized()
+	{
+		contextProduct = DataManager.Products.FirstOrDefault(x => x.Id == Id) ?? new Product();
+	}
+	private async Task SaveProduct(EditContext args)
+	{
+		if (Id == 0)
+		{
+			var product = await NetManager.Post("api/Products", contextProduct);
+			foreach(var photo in contextProduct.PhotoProduct)
+			{
+				photo.ProductId = product.Id;
+				await NetManager.Post("api/PhotoProducts", photo);
+			}
+			await DataManager.InitData();
+		}
+		else
+		{
+			await NetManager.Put($"api/Products/{Id}", contextProduct);
+		}
+		await jSRuntime.InvokeVoidAsync("history.back");
+	}
+	private async Task AddPhoto(InputFileChangeEventArgs args)
+	{
+		foreach (var file in args.GetMultipleFiles())
+		{
+			var buffer = new byte[file.Size];
+			await file.OpenReadStream().ReadAsync(buffer);
+			var photoProduct = new PhotoProduct()
+				{
+					Photo = buffer
+				};
+			if (Id != 0)
+			{
+				photoProduct.ProductId = Id;
+				await NetManager.Post("api/PhotoProducts", photoProduct);
+			}
+			contextProduct.PhotoProduct.Add(photoProduct);
+		}
+		await InvokeAsync(StateHasChanged);
+	}
+}
