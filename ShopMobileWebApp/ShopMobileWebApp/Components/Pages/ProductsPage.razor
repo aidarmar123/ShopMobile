@@ -1,6 +1,60 @@
 ﻿@page "/Products"
-<h3>ProductsPage</h3>
+<h3>Products</h3>
+<div>
+	@foreach (var product in DataManager.Products)
+	{
+		<ProductComponent product="@product"></ProductComponent>
+		<Button Clicked="@(() => AddBasket(product))">+</Button>
+		@if (StaticClass.OrderContext != null)
+		{
+			<h4>@DataManager.OrderProducts.Where(x=>x.ProductId==product.Id && x.OrderId ==StaticClass.OrderContext.Id).Count()</h4>
+		}
+	}
+</div>
+
 
 @code {
+	[Inject] IMessageService messageService { get; set; }
 
+	private async Task AddBasket(Product product)
+	{
+		if (StaticClass.UserAuth != null)
+		{
+			var order = DataManager.Orders.FirstOrDefault(x => x.UserId == StaticClass.UserAuth.Id && !x.IsFinish);
+			if (order != null)
+			{
+				StaticClass.OrderContext = order;
+			}
+			else
+			{
+				var newOrder = new Order()
+					{
+						UserId = StaticClass.UserAuth.Id,
+						DateOrder = DateTime.Now,
+						IsFinish = false
+					};
+				StaticClass.OrderContext = await NetManager.Post("api/Orders", newOrder);
+			}
+			var newOrderProduct = new OrderProduct
+				{
+					OrderId = StaticClass.OrderContext.Id,
+					ProductId = product.Id,
+					CountProduct = 1,
+					ColorProduct = "pink"
+				};
+			await NetManager.Post("api/OrderProducts", newOrderProduct);
+			await DataManager.InitData();
+		}
+		else
+		{
+			await MessageShow("You don't autorization");
+		}
+
+	}
+
+	private Task MessageShow(string msg)
+	{
+
+		return messageService.Error(msg, "Error");
+	}
 }

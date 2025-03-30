@@ -6,7 +6,7 @@
 			@foreach (var photo in product.PhotoProduct)
 			{
 				<CarouselSlide Name="@photo.Id.ToString()">
-					<CardImage Source="@($"data:image/png;base64,{Convert.ToBase64String(photo.Photo)}")" />
+					<CardImage Source="@($"data:image/{photo.Format};base64,{photo.Photo}")" />
 				</CarouselSlide>
 			}
 		</Carousel>
@@ -23,6 +23,7 @@
 	[Parameter]
 	public Product product { get; set; }
 
+	
 	private double productPrice;
 	private string selectImage { get; set; }
 

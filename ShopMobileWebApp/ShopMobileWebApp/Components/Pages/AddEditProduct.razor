@@ -2,7 +2,7 @@
 @inject IJSRuntime jSRuntime
 <PageTitle>Product</PageTitle>
 <h3>Product</h3>
-<EditForm Model="@contextProduct" FormName="ProductSave" OnValidSubmit="SaveProduct">
+<EditForm  EditContext="@editContext" FormName="ProductSave" OnValidSubmit="SaveProduct">
 	<DataAnnotationsValidator />
 	<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
 
@@ -33,13 +33,14 @@
 
 	<div>
 		<Label>Photos</Label>
-		<InputFile OnChange="AddPhoto" multiple accept="image"></InputFile>
+		<InputFile OnChange="AddPhoto" on multiple accept=".jpg, .png, .jpeg | image/*"></InputFile>
 		@if (contextProduct.PhotoProduct.Count > 0)
 		{
 			<div class="d-inline">
 				@foreach (var photo in contextProduct.PhotoProduct)
 				{
-					<img width="200" height="200" src='@($"data:image/png;base64,{Convert.ToBase64String(photo.Photo)}")'>
+					<img width="100"
+					height="100" src='@($"data:image/{photo.Format};base64,{photo.Photo}")'>
 				}
 			</div>
 		}
@@ -47,7 +48,7 @@
 
 
 
-	<Button class="btn-primary" type="ButtonType.Submit">Save</Button>
+	<button class="btn-primary" type="submit" >Save</button>
 </EditForm>
 
 @code {
@@ -55,11 +56,15 @@
 	public int Id { get; set; }
 	private Product contextProduct { get; set; }
 
+
+	private EditContext editContext{ get; set; }
+
 	protected override void OnInitialized()
 	{
 		contextProduct = DataManager.Products.FirstOrDefault(x => x.Id == Id) ?? new Product();
+		editContext = new EditContext(contextProduct);
 	}
-	private async Task SaveProduct(EditContext args)
+	private async Task SaveProduct()
 	{
 		if (Id == 0)
 		{
@@ -81,11 +86,13 @@
 	{
 		foreach (var file in args.GetMultipleFiles())
 		{
-			var buffer = new byte[file.Size];
+			byte[] buffer = new byte[file.Size];
 			await file.OpenReadStream().ReadAsync(buffer);
 			var photoProduct = new PhotoProduct()
 				{
-					Photo = buffer
+					Photo = Convert.ToBase64String(buffer),
+					Format = file.ContentType.Split('/')[1]
+					
 				};
 			if (Id != 0)
 			{
@@ -94,6 +101,9 @@
 			}
 			contextProduct.PhotoProduct.Add(photoProduct);
 		}
+
+		editContext.NotifyFieldChanged(new FieldIdentifier(contextProduct, nameof(contextProduct.PhotoProduct)));
+
 		await InvokeAsync(StateHasChanged);
 	}
 }

@@ -12,6 +12,7 @@
     <EntitySetMapping Name="Order">
       <EntityTypeMapping TypeName="ShopMobileModel.Order">
         <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="IsFinish" ColumnName="IsFinish" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="DateOrder" ColumnName="DateOrder" />
@@ -32,6 +33,7 @@
     <EntitySetMapping Name="PhotoProduct">
       <EntityTypeMapping TypeName="ShopMobileModel.PhotoProduct">
         <MappingFragment StoreEntitySet="PhotoProduct">
+          <ScalarProperty Name="Format" ColumnName="Format" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Photo" ColumnName="Photo" />
           <ScalarProperty Name="ProductId" ColumnName="ProductId" />

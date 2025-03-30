@@ -48,6 +48,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap.props": {}
         }
       },
+      "Blazorise.DataGrid/1.7.5": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.7.5",
+          "Microsoft.AspNetCore.Components": "8.0.13",
+          "Microsoft.AspNetCore.Components.Web": "8.0.13",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3"
+        },
+        "compile": {
+          "lib/net8.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.7.5": {
         "type": "package",
         "dependencies": {
@@ -76,6 +101,31 @@
         },
         "runtime": {
           "lib/net8.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.QRCode/1.7.5": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.7.5",
+          "Microsoft.AspNetCore.Components": "8.0.13",
+          "Microsoft.AspNetCore.Components.Web": "8.0.13",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3"
+        },
+        "compile": {
+          "lib/net8.0/Blazorise.QRCode.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Blazorise.QRCode.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.QRCode.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.QRCode.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/8.0.13": {
@@ -394,6 +444,33 @@
         "staticwebassets/tooltip.js"
       ]
     },
+    "Blazorise.DataGrid/1.7.5": {
+      "sha512": "px2ifO0ioKk3C8OZi6Cnb6Exy6iwIS47tkD8FUc82p4fBkhC6AOR/ghHw/yGNLlt4fHyHMKU/mFHQfnxbiz6uw==",
+      "type": "package",
+      "path": "blazorise.datagrid/1.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.datagrid.1.7.5.nupkg.sha512",
+        "blazorise.datagrid.nuspec",
+        "build/Blazorise.DataGrid.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.DataGrid.props",
+        "buildTransitive/Blazorise.DataGrid.props",
+        "lib/net6.0/Blazorise.DataGrid.dll",
+        "lib/net6.0/Blazorise.DataGrid.xml",
+        "lib/net7.0/Blazorise.DataGrid.dll",
+        "lib/net7.0/Blazorise.DataGrid.xml",
+        "lib/net8.0/Blazorise.DataGrid.dll",
+        "lib/net8.0/Blazorise.DataGrid.xml",
+        "lib/net9.0/Blazorise.DataGrid.dll",
+        "lib/net9.0/Blazorise.DataGrid.xml",
+        "staticwebassets/datagrid.js"
+      ]
+    },
     "Blazorise.Icons.FontAwesome/1.7.5": {
       "sha512": "mXSnzW//h2NSy4ktct3JKtubWTUdohSW+wPuU2daNg8kSteKkHgYa3nQ7OXX/KGustNS8EmJIcpgB9xNiXfJuw==",
       "type": "package",
@@ -458,6 +535,34 @@
         "lib/net7.0/Blazorise.Licensing.dll",
         "lib/net8.0/Blazorise.Licensing.dll",
         "lib/net9.0/Blazorise.Licensing.dll"
+      ]
+    },
+    "Blazorise.QRCode/1.7.5": {
+      "sha512": "BfckHvkBT1yX0otxqKlVV9NzYDvB7BVTjrcAGo4qjnEae5MX/8cFGoWSA/aNutquo7jPDCkkybjmzNbXcQenSA==",
+      "type": "package",
+      "path": "blazorise.qrcode/1.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.qrcode.1.7.5.nupkg.sha512",
+        "blazorise.qrcode.nuspec",
+        "build/Blazorise.QRCode.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.QRCode.props",
+        "buildTransitive/Blazorise.QRCode.props",
+        "lib/net6.0/Blazorise.QRCode.dll",
+        "lib/net6.0/Blazorise.QRCode.xml",
+        "lib/net7.0/Blazorise.QRCode.dll",
+        "lib/net7.0/Blazorise.QRCode.xml",
+        "lib/net8.0/Blazorise.QRCode.dll",
+        "lib/net8.0/Blazorise.QRCode.xml",
+        "lib/net9.0/Blazorise.QRCode.dll",
+        "lib/net9.0/Blazorise.QRCode.xml",
+        "staticwebassets/blazorise.qrcode.js",
+        "staticwebassets/vendors/qr-code-styling.js"
       ]
     },
     "Microsoft.AspNetCore.Authorization/8.0.13": {
@@ -852,7 +957,9 @@
     "net8.0": [
       "Blazorise >= 1.7.5",
       "Blazorise.Bootstrap >= 1.7.5",
+      "Blazorise.DataGrid >= 1.7.5",
       "Blazorise.Icons.FontAwesome >= 1.7.5",
+      "Blazorise.QRCode >= 1.7.5",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -915,7 +1022,15 @@
             "target": "Package",
             "version": "[1.7.5, )"
           },
+          "Blazorise.DataGrid": {
+            "target": "Package",
+            "version": "[1.7.5, )"
+          },
           "Blazorise.Icons.FontAwesome": {
+            "target": "Package",
+            "version": "[1.7.5, )"
+          },
+          "Blazorise.QRCode": {
             "target": "Package",
             "version": "[1.7.5, )"
           },

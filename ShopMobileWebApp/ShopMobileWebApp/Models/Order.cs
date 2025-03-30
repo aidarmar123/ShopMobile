@@ -10,10 +10,10 @@
 namespace ShopMobileWebApp.Models
 {
     using System;
-	using Newtonsoft.Json;
-	using ShopMobileWebApp.Services;
+    using Newtonsoft.Json;
+    using ShopMobileWebApp.Services;
     using System.Collections.Generic;
-    
+
     public partial class Order
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,21 +21,22 @@ namespace ShopMobileWebApp.Models
         {
             this.OrderProduct = new HashSet<OrderProduct>();
         }
-    
+
         public int Id { get; set; }
         public int UserId { get; set; }
         public System.DateTime DateOrder { get; set; }
-    
+        public bool IsFinish { get; set; }
+
         [JsonIgnore]
         public virtual User User
         {
             get
             {
-                return DataManager.Users.FirstOrDefault(x=>x.Id==UserId);
+                return DataManager.Users.FirstOrDefault(x => x.Id == UserId);
             }
             set
             {
-                UserId=value.Id;
+                UserId = value.Id;
             }
         }
         public virtual ICollection<OrderProduct> OrderProduct { get; set; }

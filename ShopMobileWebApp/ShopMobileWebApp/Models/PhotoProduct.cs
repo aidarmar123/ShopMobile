@@ -17,9 +17,10 @@ namespace ShopMobileWebApp.Models
     public partial class PhotoProduct
     {
         public int Id { get; set; }
-        public byte[] Photo { get; set; }
+        public string Photo { get; set; }
         public int ProductId { get; set; }
-    
+        public string Format { get; set; }
+
         [JsonIgnore]
         public virtual Product Product
         {

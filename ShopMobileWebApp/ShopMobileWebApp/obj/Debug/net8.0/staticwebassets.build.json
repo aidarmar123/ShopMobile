@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mnYTQGNc30p+Ykt8FdkcDesMosuZLNpl6ZlH8B+5Kho=",
+  "Hash": "8m/z+rbWjTth0eFUkV3yDrYbWXDjBejjS4OJAxtFlJk=",
   "Source": "ShopMobileWebApp",
   "BasePath": "_content/ShopMobileWebApp",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.bootstrap\\1.7.5\\staticwebassets\\tooltip.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.datagrid\\1.7.5\\staticwebassets\\datagrid.js",
+      "SourceId": "Blazorise.DataGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.datagrid\\1.7.5\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.DataGrid",
+      "RelativePath": "datagrid.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j79xkdulvr",
+      "Integrity": "IUvDoTp6Ncv5jcWtsmrfIzskngFwijaptYcAsty0kNU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.datagrid\\1.7.5\\staticwebassets\\datagrid.js"
     },
     {
       "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.icons.fontawesome\\1.7.5\\staticwebassets\\v5\\css\\all.css",
@@ -666,6 +687,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.icons.fontawesome\\1.7.5\\staticwebassets\\v6\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\blazorise.qrcode.js",
+      "SourceId": "Blazorise.QRCode",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.QRCode",
+      "RelativePath": "blazorise.qrcode.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y6x0czw0tb",
+      "Integrity": "9l9MC/ynzNWzvBd4wFEkkcR9YEAEvWrznaLlRlHpg00=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\blazorise.qrcode.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\vendors\\qr-code-styling.js",
+      "SourceId": "Blazorise.QRCode",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.QRCode",
+      "RelativePath": "vendors/qr-code-styling.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "khiluwblzb",
+      "Integrity": "KGGbLrTlKrfj6vZ5oEbdcS6vKh8c2RVOPnYqFfZQhO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\vendors\\qr-code-styling.js"
     },
     {
       "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise\\1.7.5\\staticwebassets\\blazorise.css",
@@ -1918,6 +1981,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-9AH02a+jpzkbEZNKc9ztEZwCFrtWE0FsladACMgupTo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.DataGrid/datagrid.j79xkdulvr.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.datagrid\\1.7.5\\staticwebassets\\datagrid.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IUvDoTp6Ncv5jcWtsmrfIzskngFwijaptYcAsty0kNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:48:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j79xkdulvr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IUvDoTp6Ncv5jcWtsmrfIzskngFwijaptYcAsty0kNU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazorise.DataGrid/datagrid.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.DataGrid/datagrid.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.datagrid\\1.7.5\\staticwebassets\\datagrid.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IUvDoTp6Ncv5jcWtsmrfIzskngFwijaptYcAsty0kNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:48:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IUvDoTp6Ncv5jcWtsmrfIzskngFwijaptYcAsty0kNU="
         }
       ]
     },
@@ -4132,6 +4277,170 @@
         {
           "Name": "label",
           "Value": "_content/Blazorise.Icons.FontAwesome/v6/webfonts/fa-v4compatibility.woff2"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.QRCode/blazorise.qrcode.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\blazorise.qrcode.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9l9MC/ynzNWzvBd4wFEkkcR9YEAEvWrznaLlRlHpg00=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:48:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9l9MC/ynzNWzvBd4wFEkkcR9YEAEvWrznaLlRlHpg00="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.QRCode/blazorise.qrcode.y6x0czw0tb.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\blazorise.qrcode.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9l9MC/ynzNWzvBd4wFEkkcR9YEAEvWrznaLlRlHpg00=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:48:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y6x0czw0tb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9l9MC/ynzNWzvBd4wFEkkcR9YEAEvWrznaLlRlHpg00="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazorise.QRCode/blazorise.qrcode.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.QRCode/vendors/qr-code-styling.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\vendors\\qr-code-styling.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGGbLrTlKrfj6vZ5oEbdcS6vKh8c2RVOPnYqFfZQhO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Jun 2024 11:17:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGGbLrTlKrfj6vZ5oEbdcS6vKh8c2RVOPnYqFfZQhO4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.QRCode/vendors/qr-code-styling.khiluwblzb.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\staticwebassets\\vendors\\qr-code-styling.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGGbLrTlKrfj6vZ5oEbdcS6vKh8c2RVOPnYqFfZQhO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Jun 2024 11:17:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khiluwblzb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGGbLrTlKrfj6vZ5oEbdcS6vKh8c2RVOPnYqFfZQhO4="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazorise.QRCode/vendors/qr-code-styling.js"
         }
       ]
     },

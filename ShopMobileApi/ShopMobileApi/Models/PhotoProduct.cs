@@ -18,6 +18,7 @@ namespace ShopMobileApi.Models
         public int Id { get; set; }
         public byte[] Photo { get; set; }
         public int ProductId { get; set; }
+        public string Format { get; set; }
     
         [JsonIgnore]
         public virtual Product Product { get; set; }

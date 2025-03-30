@@ -48,7 +48,7 @@ namespace ShopMobileWebApp.Models
             }
         }
         public virtual ICollection<OrderProduct> OrderProduct { get; set; }
-        [Range(1, 10)]
+       
         public virtual ICollection<PhotoProduct> PhotoProduct { get; set; }
     }
 }

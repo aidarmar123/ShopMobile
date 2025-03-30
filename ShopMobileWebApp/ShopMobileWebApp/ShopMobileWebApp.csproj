@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -9,7 +9,9 @@
   <ItemGroup>
     <PackageReference Include="Blazorise" Version="1.7.5" />
     <PackageReference Include="Blazorise.Bootstrap" Version="1.7.5" />
+    <PackageReference Include="Blazorise.DataGrid" Version="1.7.5" />
     <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.7.5" />
+    <PackageReference Include="Blazorise.QRCode" Version="1.7.5" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

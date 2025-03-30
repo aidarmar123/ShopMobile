@@ -48,3 +48,6 @@ C:\Users\Ajdar\OneDrive\Desktop\ShopMobile\ShopMobileWebApp\ShopMobileWebApp\obj
 C:\Users\Ajdar\OneDrive\Desktop\ShopMobile\ShopMobileWebApp\ShopMobileWebApp\obj\Debug\net8.0\ShopMobileWebApp.pdb
 C:\Users\Ajdar\OneDrive\Desktop\ShopMobile\ShopMobileWebApp\ShopMobileWebApp\obj\Debug\net8.0\ShopMobileWebApp.genruntimeconfig.cache
 C:\Users\Ajdar\OneDrive\Desktop\ShopMobile\ShopMobileWebApp\ShopMobileWebApp\obj\Debug\net8.0\ref\ShopMobileWebApp.dll
+C:\Users\Ajdar\OneDrive\Desktop\ShopMobile\ShopMobileWebApp\ShopMobileWebApp\obj\Debug\net8.0\ShopMobileWebApp.sourcelink.json
+C:\Users\Ajdar\OneDrive\Desktop\ShopMobile\ShopMobileWebApp\ShopMobileWebApp\bin\Debug\net8.0\Blazorise.DataGrid.dll
+C:\Users\Ajdar\OneDrive\Desktop\ShopMobile\ShopMobileWebApp\ShopMobileWebApp\bin\Debug\net8.0\Blazorise.QRCode.dll

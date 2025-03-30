@@ -59,7 +59,15 @@
               "target": "Package",
               "version": "[1.7.5, )"
             },
+            "Blazorise.DataGrid": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
             "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Blazorise.QRCode": {
               "target": "Package",
               "version": "[1.7.5, )"
             },

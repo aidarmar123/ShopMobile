@@ -17,6 +17,7 @@
     <Property Name="DateOrder" Type="DateTime" Nullable="false" Precision="3" />
     <NavigationProperty Name="User" Relationship="Self.FK_Order_User" FromRole="Order" ToRole="User" />
     <NavigationProperty Name="OrderProduct" Relationship="Self.FK_OrderProduct_Order" FromRole="Order" ToRole="OrderProduct" />
+    <Property Name="IsFinish" Type="Boolean" Nullable="false" />
   </EntityType>
   <EntityType Name="OrderProduct">
     <Key>
@@ -38,6 +39,7 @@
     <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
     <Property Name="ProductId" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Product" Relationship="Self.FK_PhotoProduct_Product" FromRole="PhotoProduct" ToRole="Product" />
+    <Property Name="Format" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
   </EntityType>
   <EntityType Name="Product">
     <Key>

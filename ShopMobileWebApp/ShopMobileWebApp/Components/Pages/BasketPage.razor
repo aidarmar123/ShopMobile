@@ -1,6 +1,66 @@
 ﻿@page "/Basket"
 <h3>BasketPage</h3>
+@if (orderProducts.Count > 0)
+{
+	<div>
+		<Blazorise.DataGrid.DataGrid TItem="Product"
+		Responsive
+		Data="orderProducts.Select(x=>x.Product)">
+
+
+			<DataGridColumns>
+				<Blazorise.DataGrid.DataGridCommandColumn />
+				<Blazorise.DataGrid.DataGridColumn TItem="Product" Caption="Photo">
+					<DisplayTemplate>
+						@if (context.PhotoProduct.Count > 0)
+						{
+							<img width="250" src='@($"data:image/{context.PhotoProduct.First().Format};base64,{context.PhotoProduct.First().Photo}")' />
+						}
+					</DisplayTemplate>
+
+				</Blazorise.DataGrid.DataGridColumn>
+				<Blazorise.DataGrid.DataGridColumn Field="Name" Caption="Name" />
+				<Blazorise.DataGrid.DataGridColumn Field="PriceRub" Caption="Price" />
+			</DataGridColumns>
+
+		</Blazorise.DataGrid.DataGrid>
+		<div class="d-flex">
+			<Text>@SumOrder</Text>
+			<Button Clicked="PayOrder" Class="btn-primary">Pay</Button>
+		</div>
+
+	</div>
+
+}
+else
+{
+	<h3>You don't have any selected products yet</h3>
+	<a href="/Products">Select product</a>
+}
 
 @code {
 
+	[Inject] private IModalService modalService{ get; set; }
+
+	public int SumOrder { get => orderProducts == null ? 0 : orderProducts.Select(x => x.Product.PriceRub).Sum(); }
+
+	public List<OrderProduct>? orderProducts { get; set; }
+	protected override void OnInitialized()
+	{
+		orderProducts = DataManager.OrderProducts.Where(x => x.Order.UserId == StaticClass.UserAuth.Id && !x.Order.IsFinish).ToList();
+	}
+	private async Task PayOrder(MouseEventArgs args)
+	{
+		StaticClass.OrderContext.IsFinish = true;
+		await NetManager.Put($"api/Orders/{StaticClass.OrderContext.Id}", StaticClass.OrderContext);
+		StaticClass.OrderContext = null;
+		await ShowQrcode("ss");
+		await InvokeAsync(StateHasChanged);
+
+
+	}
+	private Task ShowQrcode(string data)
+	{
+		return modalService.Show<Blazorise.QRCode.QRCode>("Skan qrcode for pay order", x=>x.Add(y=>y.Value, data));
+	}
 }

@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "M2LwYI/o+Vs=",
+  "dgSpecHash": "Czxo4ynzo1A=",
   "success": true,
   "projectFilePath": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\ShopMobileWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise\\1.7.5\\blazorise.1.7.5.nupkg.sha512",
     "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.bootstrap\\1.7.5\\blazorise.bootstrap.1.7.5.nupkg.sha512",
+    "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.datagrid\\1.7.5\\blazorise.datagrid.1.7.5.nupkg.sha512",
     "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.icons.fontawesome\\1.7.5\\blazorise.icons.fontawesome.1.7.5.nupkg.sha512",
     "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.licensing\\1.3.0\\blazorise.licensing.1.3.0.nupkg.sha512",
+    "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.qrcode\\1.7.5\\blazorise.qrcode.1.7.5.nupkg.sha512",
     "C:\\Users\\Ajdar\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.13\\microsoft.aspnetcore.authorization.8.0.13.nupkg.sha512",
     "C:\\Users\\Ajdar\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.13\\microsoft.aspnetcore.components.8.0.13.nupkg.sha512",
     "C:\\Users\\Ajdar\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.13\\microsoft.aspnetcore.components.analyzers.8.0.13.nupkg.sha512",

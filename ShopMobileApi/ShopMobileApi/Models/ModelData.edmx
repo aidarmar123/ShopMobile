@@ -19,6 +19,7 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="UserId" Type="int" Nullable="false" />
           <Property Name="DateOrder" Type="datetime" Nullable="false" />
+          <Property Name="IsFinish" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="OrderProduct">
           <Key>
@@ -37,6 +38,7 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Photo" Type="image" Nullable="false" />
           <Property Name="ProductId" Type="int" Nullable="false" />
+          <Property Name="Format" Type="nchar" MaxLength="10" Nullable="false" />
         </EntityType>
         <EntityType Name="Product">
           <Key>
@@ -202,6 +204,7 @@
           <Property Name="DateOrder" Type="DateTime" Nullable="false" Precision="3" />
           <NavigationProperty Name="User" Relationship="Self.FK_Order_User" FromRole="Order" ToRole="User" />
           <NavigationProperty Name="OrderProduct" Relationship="Self.FK_OrderProduct_Order" FromRole="Order" ToRole="OrderProduct" />
+          <Property Name="IsFinish" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="OrderProduct">
           <Key>
@@ -223,6 +226,7 @@
           <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
           <Property Name="ProductId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Product" Relationship="Self.FK_PhotoProduct_Product" FromRole="PhotoProduct" ToRole="Product" />
+          <Property Name="Format" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
         </EntityType>
         <EntityType Name="Product">
           <Key>
@@ -390,6 +394,7 @@
           <EntitySetMapping Name="Order">
             <EntityTypeMapping TypeName="ShopMobileModel.Order">
               <MappingFragment StoreEntitySet="Order">
+                <ScalarProperty Name="IsFinish" ColumnName="IsFinish" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
                 <ScalarProperty Name="DateOrder" ColumnName="DateOrder" />
@@ -410,6 +415,7 @@
           <EntitySetMapping Name="PhotoProduct">
             <EntityTypeMapping TypeName="ShopMobileModel.PhotoProduct">
               <MappingFragment StoreEntitySet="PhotoProduct">
+                <ScalarProperty Name="Format" ColumnName="Format" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Photo" ColumnName="Photo" />
                 <ScalarProperty Name="ProductId" ColumnName="ProductId" />

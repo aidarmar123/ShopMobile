@@ -24,6 +24,7 @@ namespace ShopMobileApi.Models
         public int Id { get; set; }
         public int UserId { get; set; }
         public System.DateTime DateOrder { get; set; }
+        public bool IsFinish { get; set; }
     
         [JsonIgnore]
         public virtual User User { get; set; }
