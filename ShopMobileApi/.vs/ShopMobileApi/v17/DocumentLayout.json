@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\shopmobileapi\\controllers\\orderproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobileapi\\shopmobileapi\\controllers\\orderproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\controllers\\orderproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\models\\modeldata.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobileapi\\shopmobileapi\\models\\photoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\shopmobileapi\\models\\photoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\models\\photoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobileapi\\shopmobileapi\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\shopmobileapi\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,8 +74,7 @@
               "RelativeToolTip": "ShopMobileApi\\Models\\PhotoProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T12:32:07.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T12:32:07.502Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "ShopMobileApi\\Models\\OrderProduct.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:17:16.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:17:16.966Z"
             },
             {
               "$type": "Document",
@@ -112,8 +110,7 @@
               "RelativeToolTip": "ShopMobileApi\\Models\\ModelData.tt",
               "ViewState": "AgIAAKABAAAAAAAAAAAcwLMBAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-28T08:45:44.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T08:45:44.481Z"
             },
             {
               "$type": "Document",
@@ -125,8 +122,7 @@
               "RelativeToolTip": "ShopMobileApi\\Models\\Order.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAiwBoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:45:40.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T08:45:40.364Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "ShopMobileApi\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAEwGIAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:44:08.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T08:44:08.221Z"
             },
             {
               "$type": "Document",
@@ -223,8 +218,7 @@
               "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\ShopMobileApi\\Models\\ModelData.edmx [Diagram1]",
               "RelativeToolTip": "ShopMobileApi\\Models\\ModelData.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-03-28T08:39:49.238Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-03-28T08:39:49.238Z"
             }
           ]
         }

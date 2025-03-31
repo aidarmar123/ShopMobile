@@ -1,0 +1,38 @@
+﻿@using Blazorise.Charts
+
+<LineChart @ref="lineChart" TItem="double"></LineChart>
+@code {
+
+
+	LineChart<double> lineChart;
+	string[] Labels = { "Red", "Blue", "Yellow", "Green", "Purple", "Orange" };
+
+	// private List<double> GetProduct
+	// {
+	// 	get
+	// 	{
+	// 		var listProduct = DataManager.OrderProducts.GroupBy(x => x.Order.DateOrder);
+	// 		return listProduct.Select(p => p.Count);
+	// 	}
+	// }
+
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if (firstRender)
+		{
+			await HandleRedraw();
+		}
+	}
+	async Task HandleRedraw()
+	{
+		await lineChart.Clear();
+		await lineChart.AddLabelsDatasetsAndUpdate(Labels, new LineChartDataset<double>
+			{
+				Label = "# of randoms",
+				// Data = ,
+				Fill = true,
+				PointRadius = 3,
+				CubicInterpolationMode = "monotone",
+			});
+	}
+}

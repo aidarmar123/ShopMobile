@@ -2,6 +2,8 @@ using ShopMobileWebApp.Components;
 using Blazorise;
 using Blazorise.Icons.FontAwesome;
 using Blazorise.Bootstrap;
+using LiveChartsCore;
+using LiveChartsCore.SkiaSharpView.Blazor;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +15,8 @@ builder.Services.AddRazorComponents()
 builder.Services.AddBlazorise(opt => { opt.Immediate = true; })
     .AddBootstrapProviders()
     .AddFontAwesomeIcons();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

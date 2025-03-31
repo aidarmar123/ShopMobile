@@ -6,7 +6,7 @@
 			@foreach (var photo in product.PhotoProduct)
 			{
 				<CarouselSlide Name="@photo.Id.ToString()">
-					<CardImage Source="@($"data:image/{photo.Format};base64,{photo.Photo}")" />
+					<CardImage Class="imageCard" Source="@($"data:image/{photo.Format};base64,{photo.Photo}")" />
 				</CarouselSlide>
 			}
 		</Carousel>
@@ -51,5 +51,9 @@
 <style>
 	.d-flex{
 		align-items:center;
+	}
+
+	.imageCard{
+		width:300px;
 	}
 </style>

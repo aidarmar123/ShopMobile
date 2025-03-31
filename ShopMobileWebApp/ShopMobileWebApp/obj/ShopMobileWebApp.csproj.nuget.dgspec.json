@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[1.7.5, )"
             },
+            "Blazorise.Charts": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
             "Blazorise.DataGrid": {
               "target": "Package",
               "version": "[1.7.5, )"
@@ -70,6 +74,10 @@
             "Blazorise.QRCode": {
               "target": "Package",
               "version": "[1.7.5, )"
+            },
+            "LiveChartsCore.SkiaSharpView.Blazor": {
+              "target": "Package",
+              "version": "[2.0.0-rc5.4, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

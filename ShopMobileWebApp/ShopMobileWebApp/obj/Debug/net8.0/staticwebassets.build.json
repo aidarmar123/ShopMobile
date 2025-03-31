@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8m/z+rbWjTth0eFUkV3yDrYbWXDjBejjS4OJAxtFlJk=",
+  "Hash": "J2O0kiEbY9EJ66qpbO6T8nogxU+OmwCPow0j2eJBuZo=",
   "Source": "ShopMobileWebApp",
   "BasePath": "_content/ShopMobileWebApp",
   "Mode": "Default",
@@ -99,6 +99,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.bootstrap\\1.7.5\\staticwebassets\\tooltip.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\charts.js",
+      "SourceId": "Blazorise.Charts",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.Charts",
+      "RelativePath": "charts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j3636mwrrl",
+      "Integrity": "YSDo5+J2jfnSVsI2TtgNvTb+D5L61wxlaZktJ3d0tP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\charts.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\utilities.js",
+      "SourceId": "Blazorise.Charts",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.Charts",
+      "RelativePath": "utilities.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yuah26ljhm",
+      "Integrity": "xoTc7gWMXJGBZtVeiYKd2TKGGIVbLt9a99npzZY2eQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\utilities.js"
     },
     {
       "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.datagrid\\1.7.5\\staticwebassets\\datagrid.js",
@@ -1529,6 +1571,216 @@
       "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise\\1.7.5\\staticwebassets\\vendors\\tippy.js"
     },
     {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.js",
+      "SourceId": "LiveChartsCore.SkiaSharpView.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\",
+      "BasePath": "_content/LiveChartsCore.SkiaSharpView.Blazor",
+      "RelativePath": "domInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i504ejmbfm",
+      "Integrity": "xvMCrJVM5x9cNFo7UBTfeH57Iq5oW7M9yvkQmX/3HSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.js.map",
+      "SourceId": "LiveChartsCore.SkiaSharpView.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\",
+      "BasePath": "_content/LiveChartsCore.SkiaSharpView.Blazor",
+      "RelativePath": "domInterop.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qngquw9r7v",
+      "Integrity": "1oTzwvW0XusNAEbR+oW8ogP844FtiQtyOA+aJpJ5kmg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.ts",
+      "SourceId": "LiveChartsCore.SkiaSharpView.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\",
+      "BasePath": "_content/LiveChartsCore.SkiaSharpView.Blazor",
+      "RelativePath": "domInterop.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "povrd098dy",
+      "Integrity": "12lAm8Dw9VDqAId5lWqZUCBSkpMzEtUmKx66dfS/W/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.ts"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\LiveChartsCore.SkiaSharpView.Blazor.h6pgu9i50m.bundle.scp.css",
+      "SourceId": "LiveChartsCore.SkiaSharpView.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\",
+      "BasePath": "_content/LiveChartsCore.SkiaSharpView.Blazor",
+      "RelativePath": "LiveChartsCore.SkiaSharpView.Blazor.h6pgu9i50m.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "h6pgu9i50m",
+      "Integrity": "hxrFN36+lkubAGqclGNYPpUk+PqK8JlQcq49OUy4obk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\LiveChartsCore.SkiaSharpView.Blazor.h6pgu9i50m.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\DpiWatcher.js",
+      "SourceId": "SkiaSharp.Views.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\",
+      "BasePath": "_content/SkiaSharp.Views.Blazor",
+      "RelativePath": "DpiWatcher.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "etlkpx4lxp",
+      "Integrity": "jvdEwbPP9ySWwm0cTSiOqdIfO15rtDmoxKmiqmFQR/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\DpiWatcher.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\DpiWatcher.js.map",
+      "SourceId": "SkiaSharp.Views.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\",
+      "BasePath": "_content/SkiaSharp.Views.Blazor",
+      "RelativePath": "DpiWatcher.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zunsvndtiu",
+      "Integrity": "y7L+XtwoUJtcUnvXGeRLVrLj2uLMTgPyNKJlEJnFbpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\DpiWatcher.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SizeWatcher.js",
+      "SourceId": "SkiaSharp.Views.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\",
+      "BasePath": "_content/SkiaSharp.Views.Blazor",
+      "RelativePath": "SizeWatcher.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f7ihrsj3bb",
+      "Integrity": "la7lyIF2RfLmzbgQq451BnkJEU/wykMPE6pCn8Po4pI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SizeWatcher.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SizeWatcher.js.map",
+      "SourceId": "SkiaSharp.Views.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\",
+      "BasePath": "_content/SkiaSharp.Views.Blazor",
+      "RelativePath": "SizeWatcher.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fk33y95qa",
+      "Integrity": "HQWKRYNJ6U0CQ6cjuHiZNYzn9EyBxinvWwT2zctFdWE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SizeWatcher.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SKHtmlCanvas.js",
+      "SourceId": "SkiaSharp.Views.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\",
+      "BasePath": "_content/SkiaSharp.Views.Blazor",
+      "RelativePath": "SKHtmlCanvas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kcqxblcsb9",
+      "Integrity": "pCIEjwDATOwa31+YvucoW1WTxT4YiQVDFhw94hu6wx8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SKHtmlCanvas.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SKHtmlCanvas.js.map",
+      "SourceId": "SkiaSharp.Views.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\",
+      "BasePath": "_content/SkiaSharp.Views.Blazor",
+      "RelativePath": "SKHtmlCanvas.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z305cnf0uw",
+      "Integrity": "MTgEQwaemErPPoFSvy9/AvhoR7QaOAVkSgXh+Gs5jmY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SKHtmlCanvas.js.map"
+    },
+    {
       "Identity": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMobileWebApp.styles.css",
       "SourceId": "ShopMobileWebApp",
       "SourceType": "Computed",
@@ -1543,8 +1795,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "fv0sg5gcbm",
-      "Integrity": "lcj9vaccC0P726HAbuiCL3Tu6XH70zSyFbMCvAPVjPQ=",
+      "Fingerprint": "8omlnoe9t6",
+      "Integrity": "+KJb4Q0XZISOZdqaMG3HeX98OO5JBXic5aX+xZs23wo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMobileWebApp.styles.css"
@@ -1981,6 +2233,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-9AH02a+jpzkbEZNKc9ztEZwCFrtWE0FsladACMgupTo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.Charts/charts.j3636mwrrl.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\charts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YSDo5+J2jfnSVsI2TtgNvTb+D5L61wxlaZktJ3d0tP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:48:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3636mwrrl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YSDo5+J2jfnSVsI2TtgNvTb+D5L61wxlaZktJ3d0tP0="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazorise.Charts/charts.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.Charts/charts.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\charts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YSDo5+J2jfnSVsI2TtgNvTb+D5L61wxlaZktJ3d0tP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:48:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YSDo5+J2jfnSVsI2TtgNvTb+D5L61wxlaZktJ3d0tP0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.Charts/utilities.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\utilities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xoTc7gWMXJGBZtVeiYKd2TKGGIVbLt9a99npzZY2eQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Jun 2024 11:17:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xoTc7gWMXJGBZtVeiYKd2TKGGIVbLt9a99npzZY2eQU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise.Charts/utilities.yuah26ljhm.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\blazorise.charts\\1.7.5\\staticwebassets\\utilities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xoTc7gWMXJGBZtVeiYKd2TKGGIVbLt9a99npzZY2eQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Jun 2024 11:17:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yuah26ljhm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xoTc7gWMXJGBZtVeiYKd2TKGGIVbLt9a99npzZY2eQU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazorise.Charts/utilities.js"
         }
       ]
     },
@@ -7561,6 +7977,556 @@
       ]
     },
     {
+      "Route": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.i504ejmbfm.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xvMCrJVM5x9cNFo7UBTfeH57Iq5oW7M9yvkQmX/3HSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 19:42:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i504ejmbfm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xvMCrJVM5x9cNFo7UBTfeH57Iq5oW7M9yvkQmX/3HSw="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xvMCrJVM5x9cNFo7UBTfeH57Iq5oW7M9yvkQmX/3HSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 19:42:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xvMCrJVM5x9cNFo7UBTfeH57Iq5oW7M9yvkQmX/3HSw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.js.map",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1oTzwvW0XusNAEbR+oW8ogP844FtiQtyOA+aJpJ5kmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 19:42:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1oTzwvW0XusNAEbR+oW8ogP844FtiQtyOA+aJpJ5kmg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.js.qngquw9r7v.map",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1oTzwvW0XusNAEbR+oW8ogP844FtiQtyOA+aJpJ5kmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 19:42:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qngquw9r7v"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1oTzwvW0XusNAEbR+oW8ogP844FtiQtyOA+aJpJ5kmg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.js.map"
+        }
+      ]
+    },
+    {
+      "Route": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.povrd098dy.ts",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"12lAm8Dw9VDqAId5lWqZUCBSkpMzEtUmKx66dfS/W/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 May 2024 17:57:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "povrd098dy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-12lAm8Dw9VDqAId5lWqZUCBSkpMzEtUmKx66dfS/W/A="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.ts"
+        }
+      ]
+    },
+    {
+      "Route": "_content/LiveChartsCore.SkiaSharpView.Blazor/domInterop.ts",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\domInterop.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"12lAm8Dw9VDqAId5lWqZUCBSkpMzEtUmKx66dfS/W/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 May 2024 17:57:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-12lAm8Dw9VDqAId5lWqZUCBSkpMzEtUmKx66dfS/W/A="
+        }
+      ]
+    },
+    {
+      "Route": "_content/LiveChartsCore.SkiaSharpView.Blazor/LiveChartsCore.SkiaSharpView.Blazor.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\LiveChartsCore.SkiaSharpView.Blazor.h6pgu9i50m.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxrFN36+lkubAGqclGNYPpUk+PqK8JlQcq49OUy4obk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Sep 2024 22:43:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxrFN36+lkubAGqclGNYPpUk+PqK8JlQcq49OUy4obk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/LiveChartsCore.SkiaSharpView.Blazor/LiveChartsCore.SkiaSharpView.Blazor.h6pgu9i50m.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\livechartscore.skiasharpview.blazor\\2.0.0-rc5.4\\staticwebassets\\LiveChartsCore.SkiaSharpView.Blazor.h6pgu9i50m.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxrFN36+lkubAGqclGNYPpUk+PqK8JlQcq49OUy4obk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Sep 2024 22:43:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h6pgu9i50m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxrFN36+lkubAGqclGNYPpUk+PqK8JlQcq49OUy4obk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/LiveChartsCore.SkiaSharpView.Blazor/LiveChartsCore.SkiaSharpView.Blazor.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/SkiaSharp.Views.Blazor/DpiWatcher.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\DpiWatcher.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jvdEwbPP9ySWwm0cTSiOqdIfO15rtDmoxKmiqmFQR/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 21:16:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jvdEwbPP9ySWwm0cTSiOqdIfO15rtDmoxKmiqmFQR/A="
+        }
+      ]
+    },
+    {
+      "Route": "_content/SkiaSharp.Views.Blazor/DpiWatcher.js.map",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\DpiWatcher.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y7L+XtwoUJtcUnvXGeRLVrLj2uLMTgPyNKJlEJnFbpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 21:16:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7L+XtwoUJtcUnvXGeRLVrLj2uLMTgPyNKJlEJnFbpc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/SkiaSharp.Views.Blazor/SizeWatcher.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SizeWatcher.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"la7lyIF2RfLmzbgQq451BnkJEU/wykMPE6pCn8Po4pI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 21:16:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-la7lyIF2RfLmzbgQq451BnkJEU/wykMPE6pCn8Po4pI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/SkiaSharp.Views.Blazor/SizeWatcher.js.map",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SizeWatcher.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HQWKRYNJ6U0CQ6cjuHiZNYzn9EyBxinvWwT2zctFdWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 21:16:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HQWKRYNJ6U0CQ6cjuHiZNYzn9EyBxinvWwT2zctFdWE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/SkiaSharp.Views.Blazor/SKHtmlCanvas.js",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SKHtmlCanvas.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pCIEjwDATOwa31+YvucoW1WTxT4YiQVDFhw94hu6wx8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 21:16:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pCIEjwDATOwa31+YvucoW1WTxT4YiQVDFhw94hu6wx8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/SkiaSharp.Views.Blazor/SKHtmlCanvas.js.map",
+      "AssetFile": "C:\\Users\\Ajdar\\.nuget\\packages\\skiasharp.views.blazor\\3.116.1\\staticwebassets\\SKHtmlCanvas.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTgEQwaemErPPoFSvy9/AvhoR7QaOAVkSgXh+Gs5jmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 21:16:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTgEQwaemErPPoFSvy9/AvhoR7QaOAVkSgXh+Gs5jmY="
+        }
+      ]
+    },
+    {
       "Route": "app.css",
       "AssetFile": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\wwwroot\\app.css",
       "Selectors": [],
@@ -7889,6 +8855,55 @@
       ]
     },
     {
+      "Route": "ShopMobileWebApp.8omlnoe9t6.styles.css",
+      "AssetFile": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMobileWebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+KJb4Q0XZISOZdqaMG3HeX98OO5JBXic5aX+xZs23wo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 08:50:50 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/LiveChartsCore.SkiaSharpView.Blazor/LiveChartsCore.SkiaSharpView.Blazor.h6pgu9i50m.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8omlnoe9t6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+KJb4Q0XZISOZdqaMG3HeX98OO5JBXic5aX+xZs23wo="
+        },
+        {
+          "Name": "label",
+          "Value": "ShopMobileWebApp.styles.css"
+        }
+      ]
+    },
+    {
       "Route": "ShopMobileWebApp.bundle.scp.css",
       "AssetFile": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopMobileWebApp.bundle.scp.css",
       "Selectors": [],
@@ -7971,51 +8986,6 @@
       ]
     },
     {
-      "Route": "ShopMobileWebApp.fv0sg5gcbm.styles.css",
-      "AssetFile": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMobileWebApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5915"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lcj9vaccC0P726HAbuiCL3Tu6XH70zSyFbMCvAPVjPQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 10:38:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fv0sg5gcbm"
-        },
-        {
-          "Name": "label",
-          "Value": "ShopMobileWebApp.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lcj9vaccC0P726HAbuiCL3Tu6XH70zSyFbMCvAPVjPQ="
-        }
-      ]
-    },
-    {
       "Route": "ShopMobileWebApp.styles.css",
       "AssetFile": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ShopMobileWebApp.styles.css",
       "Selectors": [],
@@ -8025,8 +8995,12 @@
           "Value": "bytes"
         },
         {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
           "Name": "Content-Length",
-          "Value": "5915"
+          "Value": "6036"
         },
         {
           "Name": "Content-Type",
@@ -8034,21 +9008,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lcj9vaccC0P726HAbuiCL3Tu6XH70zSyFbMCvAPVjPQ=\""
+          "Value": "\"+KJb4Q0XZISOZdqaMG3HeX98OO5JBXic5aX+xZs23wo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 10:38:11 GMT"
+          "Value": "Mon, 31 Mar 2025 08:50:50 GMT"
         },
         {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Name": "Link",
+          "Value": "<_content/LiveChartsCore.SkiaSharpView.Blazor/LiveChartsCore.SkiaSharpView.Blazor.h6pgu9i50m.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lcj9vaccC0P726HAbuiCL3Tu6XH70zSyFbMCvAPVjPQ="
+          "Value": "sha256-+KJb4Q0XZISOZdqaMG3HeX98OO5JBXic5aX+xZs23wo="
         }
       ]
     }
