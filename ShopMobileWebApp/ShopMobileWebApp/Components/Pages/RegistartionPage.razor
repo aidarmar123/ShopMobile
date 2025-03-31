@@ -2,38 +2,42 @@
 @inject NavigationManager NavigationManager
 @layout AuthoriztionLayout
 <PageTitle>Registartion</PageTitle>
+<div class="form">
+	<EditForm Model="@contextUser" FormName="Registration" OnValidSubmit="SaveUser">
+		<DataAnnotationsValidator />
+		<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
 
-<EditForm Model="@contextUser" FormName="Registration" OnValidSubmit="SaveUser">
-	<DataAnnotationsValidator/>
-	<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
+		<div>
+			<Label>Name</Label><br />
+			<InputText @bind-Value="@contextUser.Name" />
+		</div>
 
-	<div>
-		<Label>Name</Label><br />
-		<InputText @bind-Value="@contextUser.Name"/>
-	</div>
-
-	<div>
-		<Label>Login</Label><br />
-		<InputText @bind-Value="@contextUser.Login"/>
-	</div>
+		<div>
+			<Label>Login</Label><br />
+			<InputText @bind-Value="@contextUser.Login" />
+		</div>
 
 
 		<Label>Password</Label><br />
-		<InputText @bind-Value="@contextUser.Password"/>
-	
+		<InputText @bind-Value="@contextUser.Password" />
 
-	<div>
-		<Label>Role</Label>
-		<InputSelect @bind-Value="@contextUser.RoleId">
-			@foreach(var role in DataManager.Roles)
-			{
-				<option value="@role.Id">@role.Name</option><br>
-			}
-		</InputSelect>
-	</div>
 
-	<Button class="btn-primary" type="ButtonType.Submit">Save</Button>
-</EditForm>
+		<div>
+			<Label>Role</Label>
+			<InputSelect @bind-Value="@contextUser.RoleId">
+				@foreach (var role in DataManager.Roles)
+				{
+					<option value="@role.Id">@role.Name</option>
+
+					<br>
+				}
+			</InputSelect>
+		</div>
+
+		<Button class="btn-primary" type="ButtonType.Submit">Save</Button>
+	</EditForm>
+</div>
+
 
 @code {
 	private User contextUser = new User();

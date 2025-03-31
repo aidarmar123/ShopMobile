@@ -3,24 +3,29 @@
 @layout AuthoriztionLayout
 @inject NavigationManager NavigationManager
 @inject IJSRuntime jSRuntime
+<div class="form">
+	<h2>Log in your account</h2>
+	<EditForm Model="@contextUser" FormName="Login" OnValidSubmit="Authorization">
+		<DataAnnotationsValidator />
+		<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
 
-<EditForm Model="@contextUser" FormName="Login" OnValidSubmit="Authorization">
-	<DataAnnotationsValidator />
-	<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
+		<div>
+			<label>Login:</label><br />
+			<InputText @bind-Value="@contextUser.Login" />
+		</div>
 
-	<div>
-		<label>Login:</label>
-		<InputText @bind-Value="@contextUser.Login" />
-	</div>
+		<div>
+			<label>Password:</label><br />
+			<InputText @bind-Value="@contextUser.Password" />
+		</div>
+		<div class="d-inline">
+			<Button type="ButtonType.Submit">Login</Button>
+			<Button Clicked="Regestr">Regestration</Button>
 
-	<div>
-		<label>Password:</label>
-		<InputText @bind-Value="@contextUser.Password" />
-	</div>
+		</div>
+	</EditForm>
 
-	<Button type="ButtonType.Submit">Login</Button>
-</EditForm>
-<Button Clicked="Regestr">Regestration</Button>
+</div>
 
 @code {
 	private AuthUser contextUser { get; set; } = new AuthUser();
@@ -39,7 +44,7 @@
 	private class AuthUser()
 	{
 		[Required]
-		public string Login{ get; set; }
+		public string Login { get; set; }
 		[Required]
 		public string Password { get; set; }
 	}

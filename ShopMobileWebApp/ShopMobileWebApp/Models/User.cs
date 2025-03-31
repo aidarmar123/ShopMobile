@@ -33,7 +33,8 @@ namespace ShopMobileWebApp.Models
         public int RoleId { get; set; }
     
         public virtual ICollection<Order> Order { get; set; }
-        
+
+        [Required]
         [JsonIgnore]
         public virtual Role Role
         {

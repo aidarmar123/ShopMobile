@@ -9,7 +9,7 @@
 		{
 			<div class="d-inline m-1">
 				@category.Name
-				<input type="checkbox" @bind:after="Filter" @bind="@category.IsSelect" ></input>
+				<input type="checkbox" @bind:after="Filter" @bind="@category.IsSelect"></input>
 			</div>
 		}
 	</Label>
@@ -25,11 +25,14 @@
 		<div>
 
 			<ProductComponent product="@product"></ProductComponent>
-			<Button Clicked="@(() => AddBasket(product))">+</Button>
-			@if (StaticClass.OrderContext != null)
-			{
-				<h4>@DataManager.OrderProducts.Where(x => x.ProductId == product.Id && x.OrderId == StaticClass.OrderContext.Id).Count()</h4>
-			}
+			<div class="d-flex">
+				@if (StaticClass.OrderContext != null)
+				{
+					<Button Clicked="@(() => Removebasket(product))">-</Button>
+					<h4>@DataManager.OrderProducts.Where(x => x.ProductId == product.Id && x.OrderId == StaticClass.OrderContext.Id).Count()</h4>
+				}
+				<Button Clicked="@(() => AddBasket(product))">+</Button>
+			</div>
 		</div>
 	}
 </div>
@@ -77,6 +80,14 @@
 		}
 
 	}
+
+	async Task Removebasket(Product product)
+	{
+		var orderProduct = DataManager.OrderProducts.FirstOrDefault(x => x.ProductId == product.Id && x.OrderId == StaticClass.OrderContext.Id);
+		await NetManager.Delete($"api/OrderProducts/{orderProduct.Id}");
+		await DataManager.InitData();
+		await InvokeAsync(StateHasChanged);
+	}
 	private async Task Filter()
 	{
 		productContext = DataManager.Products.Where(x => x.Category.IsSelect).ToList();
@@ -88,14 +99,9 @@
 
 	private Task MessageShow(string msg)
 	{
-
 		return messageService.Error(msg, "Error");
 	}
-	private void FilterOnChange(ChangeEventArgs args)
-	{
-		
-		
-	}
+	
 }
 <style>
 	.productsBox {
