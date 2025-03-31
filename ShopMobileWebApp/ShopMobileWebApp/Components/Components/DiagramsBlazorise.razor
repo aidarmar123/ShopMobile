@@ -1,38 +1,98 @@
 ﻿@using Blazorise.Charts
 
-<LineChart @ref="lineChart" TItem="double"></LineChart>
+<LineChart @ref="lineChart" TItem="int"></LineChart>
+
+<div class="d-flex flex-wrap">
+	<PieChart TItem="int" @ref="pieChart" Margin="Margin.Is5" class="pieChart" Options="pieOptions" />
+	<BarChart TItem="int" @ref="barChart" Options="barOptions"  />
+</div>
 @code {
+	PieChart<int> pieChart;
+	LineChart<int> lineChart;
+	BarChart<int> barChart;
+	private PieChartOptions pieOptions = new PieChartOptions
+		{
+			AspectRatio = 2  // Чем больше число, тем меньше диаграмма
+		};
+	private BarChartOptions barOptions = new BarChartOptions
+		{
+			AspectRatio = 2  // Чем больше число, тем меньше диаграмма
+		};
 
 
-	LineChart<double> lineChart;
-	string[] Labels = { "Red", "Blue", "Yellow", "Green", "Purple", "Orange" };
-
-	// private List<double> GetProduct
-	// {
-	// 	get
-	// 	{
-	// 		var listProduct = DataManager.OrderProducts.GroupBy(x => x.Order.DateOrder);
-	// 		return listProduct.Select(p => p.Count);
-	// 	}
-	// }
+	private List<int> GetCountProductDate
+	{
+		get
+		{
+			var listProduct = DataManager.OrderProducts.GroupBy(x => x.Order.DateOrder.Date);
+			return listProduct.Select(p => p.Sum(d => d.Order.SumOrder)).ToList();
+		}
+	}
+	private string[] GetLabels
+	{
+		get
+		{
+			var listProduct = DataManager.OrderProducts.GroupBy(x => x.Order.DateOrder.Date);
+			return listProduct.Select(p => p.Key.ToString("M")).ToArray();
+		}
+	}
 
 	protected override async Task OnAfterRenderAsync(bool firstRender)
 	{
 		if (firstRender)
 		{
 			await HandleRedraw();
+			await HandlePie();
+			await HandleBar();
 		}
 	}
 	async Task HandleRedraw()
 	{
 		await lineChart.Clear();
-		await lineChart.AddLabelsDatasetsAndUpdate(Labels, new LineChartDataset<double>
+		await lineChart.AddLabelsDatasetsAndUpdate(GetLabels, new LineChartDataset<int>
 			{
-				Label = "# of randoms",
-				// Data = ,
+				Label = "product",
+				Data = GetCountProductDate,
 				Fill = true,
 				PointRadius = 3,
-				CubicInterpolationMode = "monotone",
 			});
 	}
+	async Task HandlePie()
+	{
+		await pieChart.Clear();
+
+
+		await pieChart.AddLabelsDatasetsAndUpdate(DataManager.Products.Select(x => x.Name).ToList(), new PieChartDataset<int>
+			{
+				Label = "product",
+				Data = DataManager.Products.Select(x => x.OrderProduct.Count).ToList(),
+				BackgroundColor = RandomColor(),
+				
+			});
+
+
+	}
+	async Task HandleBar()
+	{
+		await barChart.AddLabelsDatasetsAndUpdate(DataManager.Products.Select(x => x.Name).ToList(), new BarChartDataset<int>
+			{
+				Label = "product",
+				Data = DataManager.Products.Select(x => x.OrderProduct.Count).ToList(),
+				BackgroundColor = RandomColor()
+				
+			});
+
+
+	}
+	string RandomColor()
+	{
+		var radnom = new Random();
+		return $"#{radnom.Next(100000, 999999)}";
+	}
 }
+<style>
+	.pieChart {
+		width: 200px;
+		height: 200px;
+	}
+</style>

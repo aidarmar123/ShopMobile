@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\shopmobileapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobileapi\\shopmobileapi\\controllers\\orderproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\controllers\\orderproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\shopmobileapi\\models\\photoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\models\\photoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\shopmobileapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|solutionrelative:shopmobileapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD918CD4-7679-4618-B6A1-7556D94E373B}|ShopMobileApi\\ShopMobileApi.csproj|C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\shopmobileapi\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PhotoProduct.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\ShopMobileApi\\Models\\PhotoProduct.cs",
               "RelativeDocumentMoniker": "ShopMobileApi\\Models\\PhotoProduct.cs",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\ShopMobileApi\\Models\\Order.cs",
               "RelativeDocumentMoniker": "ShopMobileApi\\Models\\Order.cs",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OrderProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\ShopMobileApi\\Controllers\\OrderProductsController.cs",
               "RelativeDocumentMoniker": "ShopMobileApi\\Controllers\\OrderProductsController.cs",
@@ -163,15 +163,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\ShopMobileApi\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "ShopMobileApi\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\ShopMobileApi\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ShopMobileApi\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAEwGIAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAtwD8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:44:08.221Z"
+              "WhenOpened": "2025-03-28T08:44:08.221Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -211,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ModelData.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileApi\\ShopMobileApi\\Models\\ModelData.edmx",
               "RelativeDocumentMoniker": "ShopMobileApi\\Models\\ModelData.edmx",

@@ -2,7 +2,7 @@
 @inject IJSRuntime jSRuntime
 <PageTitle>Product</PageTitle>
 <h3>Product</h3>
-<EditForm  EditContext="@editContext" FormName="ProductSave" OnValidSubmit="SaveProduct">
+<EditForm Model="contextProduct" FormName="ProductSave" OnValidSubmit="SaveProduct">
 	<DataAnnotationsValidator />
 	<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
 
@@ -40,7 +40,7 @@
 				@foreach (var photo in contextProduct.PhotoProduct)
 				{
 					<img width="100"
-					height="100" src='@($"data:image/{photo.Format};base64,{photo.Photo}")'>
+						 height="100" src='@($"data:image/{photo.Format};base64,{photo.Photo}")'>
 				}
 			</div>
 		}
@@ -48,7 +48,7 @@
 
 
 
-	<button class="btn-primary" type="submit" >Save</button>
+	<button class="btn-primary" type="submit">Save</button>
 </EditForm>
 
 @code {
@@ -57,23 +57,18 @@
 	private Product contextProduct { get; set; }
 
 
-	private EditContext editContext{ get; set; }
+	
 
 	protected override void OnInitialized()
 	{
 		contextProduct = DataManager.Products.FirstOrDefault(x => x.Id == Id) ?? new Product();
-		editContext = new EditContext(contextProduct);
+		
 	}
 	private async Task SaveProduct()
 	{
 		if (Id == 0)
 		{
 			var product = await NetManager.Post("api/Products", contextProduct);
-			foreach(var photo in contextProduct.PhotoProduct)
-			{
-				photo.ProductId = product.Id;
-				await NetManager.Post("api/PhotoProducts", photo);
-			}
 			await DataManager.InitData();
 		}
 		else
@@ -84,26 +79,36 @@
 	}
 	private async Task AddPhoto(InputFileChangeEventArgs args)
 	{
-		foreach (var file in args.GetMultipleFiles())
+		foreach (var file in args.GetMultipleFiles(3))
 		{
-			byte[] buffer = new byte[file.Size];
-			await file.OpenReadStream().ReadAsync(buffer);
-			var photoProduct = new PhotoProduct()
-				{
-					Photo = Convert.ToBase64String(buffer),
-					Format = file.ContentType.Split('/')[1]
-					
-				};
-			if (Id != 0)
+			try
 			{
-				photoProduct.ProductId = Id;
-				await NetManager.Post("api/PhotoProducts", photoProduct);
+
+				using (var ms = new MemoryStream())
+				{
+					await file.OpenReadStream(10 * 1024 * 1024).CopyToAsync(ms);
+					var photoProduct = new PhotoProduct()
+						{
+							Photo = Convert.ToBase64String(ms.ToArray()),
+							Format = file.ContentType.Split('/')[1]
+
+						};
+					if (Id != 0)
+					{
+						photoProduct.ProductId = Id;
+						await NetManager.Post("api/PhotoProducts", photoProduct);
+					}
+					contextProduct.PhotoProduct.Add(photoProduct);
+				}
+
+
 			}
-			contextProduct.PhotoProduct.Add(photoProduct);
-		}
+			catch
+			{
 
-		editContext.NotifyFieldChanged(new FieldIdentifier(contextProduct, nameof(contextProduct.PhotoProduct)));
+			}
 
+		}		
 		await InvokeAsync(StateHasChanged);
 	}
 }

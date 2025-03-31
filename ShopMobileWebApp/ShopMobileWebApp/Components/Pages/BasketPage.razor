@@ -25,7 +25,7 @@
 
 		</Blazorise.DataGrid.DataGrid>
 		<div class="d-flex">
-			<Text>@SumOrder</Text>
+			<Text>@StaticClass.OrderContext.SumOrder</Text>
 			<Button Clicked="PayOrder" Class="btn-primary">Pay</Button>
 		</div>
 
@@ -42,7 +42,7 @@ else
 
 	[Inject] private IModalService modalService{ get; set; }
 
-	public int SumOrder { get => orderProducts == null ? 0 : orderProducts.Select(x => x.Product.PriceRub).Sum(); }
+	
 
 	public List<OrderProduct>? orderProducts { get; set; }
 	protected override void OnInitialized()

@@ -1,19 +1,45 @@
 ﻿@page "/Products"
 <h3>Products</h3>
-<div>
-	@foreach (var product in DataManager.Products)
-	{
-		<ProductComponent product="@product"></ProductComponent>
-		<Button Clicked="@(() => AddBasket(product))">+</Button>
-		@if (StaticClass.OrderContext != null)
+
+<div class="filter">
+
+	<Label>
+		Category:
+		@foreach (var category in DataManager.Categorys)
 		{
-			<h4>@DataManager.OrderProducts.Where(x=>x.ProductId==product.Id && x.OrderId ==StaticClass.OrderContext.Id).Count()</h4>
+			<div class="d-inline m-1">
+				@category.Name
+				<input type="checkbox" @bind:after="Filter" @bind="@category.IsSelect" ></input>
+			</div>
 		}
+	</Label>
+	<Label>
+		Name
+		<input @bind="@SearchText" @bind:after="Filter" />
+	</Label>
+
+</div>
+<div class="productsBox">
+	@foreach (var product in productContext)
+	{
+		<div>
+
+			<ProductComponent product="@product"></ProductComponent>
+			<Button Clicked="@(() => AddBasket(product))">+</Button>
+			@if (StaticClass.OrderContext != null)
+			{
+				<h4>@DataManager.OrderProducts.Where(x => x.ProductId == product.Id && x.OrderId == StaticClass.OrderContext.Id).Count()</h4>
+			}
+		</div>
 	}
 </div>
 
 
 @code {
+	private string SearchText { get; set; }
+
+	private List<Product> productContext { get; set; } = DataManager.Products;
+
 	[Inject] IMessageService messageService { get; set; }
 
 	private async Task AddBasket(Product product)
@@ -51,10 +77,30 @@
 		}
 
 	}
+	private async Task Filter()
+	{
+		productContext = DataManager.Products.Where(x => x.Category.IsSelect).ToList();
+		if (!string.IsNullOrWhiteSpace(SearchText))
+		{
+			productContext = productContext.Where(x => x.Name.Contains(SearchText)).ToList();
+		}
+	}
 
 	private Task MessageShow(string msg)
 	{
 
 		return messageService.Error(msg, "Error");
 	}
+	private void FilterOnChange(ChangeEventArgs args)
+	{
+		
+		
+	}
 }
+<style>
+	.productsBox {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+</style>

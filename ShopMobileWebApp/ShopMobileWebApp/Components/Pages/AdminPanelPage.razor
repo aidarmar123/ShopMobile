@@ -2,55 +2,61 @@
 @using Blazorise.Charts
 @inject NavigationManager NavigationManager
 <h3>Admin Panel</h3>
-<Tabs>
-    <Items>
-        <Tab Name="products">Product</Tab>
-        <Tab Name="diagrams">Diagrams</Tab>
-       
-    </Items>
-    <Content>
-        <TabPanel Name="products">
-            <Div>
-                <Button Clicked="Add">Add</Button>
-            </Div>
+<Tabs SelectedTab="products">
+	<Items>
+		<Tab Name="products">Product</Tab>
+		<Tab Name="diagrams">Diagrams</Tab>
 
-            @if (DataManager.Products.Count > 0)
-            {
-                <CardDeck>
-                    @foreach (var product in DataManager.Products)
-                    {
-                        <ProductComponent product="@product"></ProductComponent>
-                        <Button Clicked='@(()=>NavigationManager.NavigateTo($"/Product/Id:{product.Id}"))'>Edit</Button>
-                        <Button Clicked="()=>Remove(product)">Remove</Button>
-                    }
-                </CardDeck>
-            }
-        </TabPanel>
+	</Items>
+	<Content>
+		<TabPanel Name="products">
+			<Div>
+				<Button Clicked="Add">Add</Button>
+			</Div>
 
-        <TabPanel Name="diagrams"> 
-             <DiagramsBlazorise /> 
-         </TabPanel>
+			@if (DataManager.Products.Count > 0)
+			{
+				<CardDeck>
+					@foreach (var product in DataManager.Products)
+					{
+						<div class="d-flex  flex-wrap">
+						
+							<ProductComponent product="@product"></ProductComponent>
+							<div class="d-inline">
+								<Button Clicked='@(()=>NavigationManager.NavigateTo($"/Product/Id:{product.Id}"))'>Edit</Button>
+								<Button Clicked="()=>Remove(product)">Remove</Button>
+							</div>
+						</div>
+
+					}
+				</CardDeck>
+			}
+		</TabPanel>
+
+		<TabPanel Name="diagrams">
+			<DiagramsBlazorise />
+		</TabPanel>
 
 
-    </Content>
+	</Content>
 </Tabs>
 
 @code {
 
 
-    protected override async Task OnInitializedAsync()
-    {
-        if (StaticClass.UserAuth != null && StaticClass.UserAuth.RoleId != 2)
-            NavigationManager.NavigateTo("/");
+	protected override async Task OnInitializedAsync()
+	{
+		if (StaticClass.UserAuth != null && StaticClass.UserAuth.RoleId != 2)
+			NavigationManager.NavigateTo("/");
 
-    }
-   
+	}
 
-    private void Add(MouseEventArgs args)
-    {
+
+	private void Add(MouseEventArgs args)
+	{
 		NavigationManager.NavigateTo("/Product/Id:0");
 	}
-	
+
 	private async Task Remove(Product product)
 	{
 		await NetManager.Delete($"api/Products/{product.Id}");

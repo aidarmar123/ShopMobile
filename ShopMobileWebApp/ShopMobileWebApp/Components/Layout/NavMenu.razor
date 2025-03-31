@@ -11,21 +11,38 @@
 			<BarItem>
 				<BarLink To="/Products">Products</BarLink>
 			</BarItem>
+			@if (StaticClass.OrderContext != null)
+			{
+				
+				<BarItem>
 
-			<BarItem>
-				<BarLink To="/Basket">Basket</BarLink>
-			</BarItem>
+					<BarLink To="/Basket">Basket<sup class="countProd">@StaticClass.OrderContext.OrderProduct.Count</sup></BarLink>
+				</BarItem>
+
+			}
 			<BarItem>
 				<BarLink To="/Account">Account</BarLink>
 			</BarItem>
-			@if(StaticClass.UserAuth!=null && StaticClass.UserAuth.RoleId == 2)
+			@if (StaticClass.UserAuth != null && StaticClass.UserAuth.RoleId == 2)
 			{
-				<BarItem>
-					<BarLink To="/AdminPanel">Admin Panel</BarLink>
+				
+					<BarItem>
+						<BarLink To="/AdminPanel">Admin Panel</BarLink>
 				</BarItem>
+				
+				
 			}
 
 		</BarStart>
 
 	</BarMenu>
 </Bar>
+<style>
+	.countProd{
+		background-color:red;
+		color:white;
+		border-radius:100%;
+		padding: 3px;
+
+	}
+</style>

@@ -1,14 +1,15 @@
 ﻿
 
-<Card>
+<Card Margin="Margin.Is2" class="mb-0">
 	<CardBody>
-		<Carousel @bind-SelectedSlide="@selectImage">
+		<Carousel @bind-SelectedSlide="@selectImage" Autoplay="false" ShowControls="true" >
 			@foreach (var photo in product.PhotoProduct)
 			{
-				<CarouselSlide Name="@photo.Id.ToString()">
-					<CardImage Class="imageCard" Source="@($"data:image/{photo.Format};base64,{photo.Photo}")" />
+				<CarouselSlide  Name="@photo.Id.ToString()">
+					<Image  Source="@($"data:image/{photo.Format};base64,{photo.Photo}")" class="h100px"/>
 				</CarouselSlide>
 			}
+			
 		</Carousel>
 		<CardTitle>@product.Name</CardTitle>
 		<CardText>@product.Description</CardText>
@@ -55,5 +56,9 @@
 
 	.imageCard{
 		width:300px;
+	}
+
+	.h100px{
+		height:100px;
 	}
 </style>
