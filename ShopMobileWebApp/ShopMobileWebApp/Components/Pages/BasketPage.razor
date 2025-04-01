@@ -53,9 +53,9 @@ else
 	{
 		StaticClass.OrderContext.IsFinish = true;
 		await NetManager.Put($"api/Orders/{StaticClass.OrderContext.Id}", StaticClass.OrderContext);
-		StaticClass.OrderContext = null;
+		StaticClass.OrderContext = new Order();
 		await ShowQrcode("ss");
-		await InvokeAsync(StateHasChanged);
+		
 
 
 	}

@@ -16,7 +16,7 @@ namespace ShopMobileWebApp.Models
             var response = await httpClient.GetAsync(Urlvalute);
             var content = await response.Content.ReadAsStringAsync();
             var jsObject = JObject.Parse(content);
-            return PriceRub*jsObject["rates"]![volute].Value<double>();
+            return Math.Round(PriceRub*jsObject["rates"]![volute].Value<double>(),2);
            
         }
         

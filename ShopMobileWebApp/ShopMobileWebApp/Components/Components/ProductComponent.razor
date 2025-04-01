@@ -9,7 +9,7 @@
 					<Image  Source="@($"data:image/{photo.Format};base64,{photo.Photo}")" class="h100px"/>
 				</CarouselSlide>
 			}
-			
+
 		</Carousel>
 		<CardTitle>@product.Name</CardTitle>
 		<CardText>@product.Description</CardText>
@@ -24,16 +24,17 @@
 	[Parameter]
 	public Product product { get; set; }
 
-	
+
 	private double productPrice;
 	private string selectImage { get; set; }
 
 	private int indexVolute = 0;
 	private List<string> Volutes = new List<string>() { "RUB","USD", "EUR", "AUD" };
 
-	protected override async Task OnParametersSetAsync()
+	
+	protected override Task OnAfterRenderAsync(bool firstRender)
 	{
-		await ChangePrice();
+		return ChangePrice();
 	}
 
 	private async Task ChangeVolute(MouseEventArgs args)

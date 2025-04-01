@@ -3,8 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\basketpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\basketpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\productspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\productspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\adminpanelpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\adminpanelpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\addeditproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\addeditproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\models\\partials\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\models\\partials\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\components\\productcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\components\\productcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\accountpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\accountpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ajdar\\Downloads\\PhotoCollage\\PhotoCollageBlazor\\PhotoCollageBlazor\\Services\\SignalRService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -12,10 +39,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\productspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\productspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\registartionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -58,14 +81,6 @@
       "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\models\\partials\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\components\\productcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\components\\productcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\basketpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\basketpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,20 +89,8 @@
       "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\models\\partials\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\adminpanelpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\adminpanelpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\components\\pages\\addeditproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\components\\pages\\addeditproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\models\\partials\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|solutionrelative:shopmobilewebapp\\models\\partials\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE90F5B7-663D-4B19-93F3-928F7BCF4EB3}|ShopMobileWebApp\\ShopMobileWebApp.csproj|c:\\users\\ajdar\\onedrive\\desktop\\shopmobile\\shopmobilewebapp\\shopmobilewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,7 +173,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "SignalRService.cs",
+              "DocumentMoniker": "C:\\Users\\Ajdar\\Downloads\\PhotoCollage\\PhotoCollageBlazor\\PhotoCollageBlazor\\Services\\SignalRService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\PhotoCollage\\PhotoCollageBlazor\\PhotoCollageBlazor\\Services\\SignalRService.cs",
+              "ToolTip": "C:\\Users\\Ajdar\\Downloads\\PhotoCollage\\PhotoCollageBlazor\\PhotoCollageBlazor\\Services\\SignalRService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\PhotoCollage\\PhotoCollageBlazor\\PhotoCollageBlazor\\Services\\SignalRService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:00:51.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -178,12 +194,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAAATAAAAAAAAAAAvwBUTAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-31T16:08:07.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T16:08:07.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\Partials\\Order.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\Partials\\Order.cs",
@@ -195,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\Partials\\Category.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\Partials\\Category.cs",
@@ -207,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "DiagramsBlazorise.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Components\\DiagramsBlazorise.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Components\\DiagramsBlazorise.razor",
@@ -215,12 +230,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Components\\DiagramsBlazorise.razor",
               "ViewState": "AgIAABsAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T08:45:32.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T08:45:32.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "QrCode.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Components\\QrCode.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Components\\QrCode.razor",
@@ -232,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Carousel.razor.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\AppData\\Local\\SourceServer\\69d13ba3cf7d24f1097ba418fd5da2caf2b8a93112da41c9411cf94cc260c9ca\\Source\\Blazorise\\Components\\Carousel\\Carousel.razor.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\69d13ba3cf7d24f1097ba418fd5da2caf2b8a93112da41c9411cf94cc260c9ca\\Source\\Blazorise\\Components\\Carousel\\Carousel.razor.cs",
@@ -245,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "AddEditProduct.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\AppData\\Local\\SourceServer\\2197b74faf5f81a247e91ba24363d3ff27adc6dcfca5eea82285546bc5f913d6\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\AddEditProduct.razor",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\2197b74faf5f81a247e91ba24363d3ff27adc6dcfca5eea82285546bc5f913d6\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\AddEditProduct.razor",
@@ -258,55 +272,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\Partials\\Product.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\Partials\\Product.cs",
               "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\Partials\\Product.cs",
               "RelativeToolTip": "ShopMobileWebApp\\Models\\Partials\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:17:41.154Z"
+              "WhenOpened": "2025-03-28T15:17:41.154Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 3,
               "Title": "AddEditProduct.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\AddEditProduct.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\AddEditProduct.razor",
               "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\AddEditProduct.razor",
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Pages\\AddEditProduct.razor",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEYAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T14:50:53.991Z"
+              "WhenOpened": "2025-03-28T14:50:53.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
               "Title": "AdminPanelPage.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\AdminPanelPage.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\AdminPanelPage.razor",
               "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\AdminPanelPage.razor",
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Pages\\AdminPanelPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T14:27:53.555Z"
+              "WhenOpened": "2025-03-28T14:27:53.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "ProductComponent.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Components\\ProductComponent.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Components\\ProductComponent.razor",
               "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Components\\ProductComponent.razor",
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Components\\ProductComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T14:26:34.646Z"
+              "WhenOpened": "2025-03-28T14:26:34.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "RegistartionPage.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\RegistartionPage.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\RegistartionPage.razor",
@@ -314,12 +332,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Pages\\RegistartionPage.razor",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAwB0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T12:48:41.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:48:41.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\Error.razor",
@@ -331,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ProductsPage.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\ProductsPage.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\ProductsPage.razor",
@@ -344,32 +361,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "BasketPage.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\BasketPage.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\BasketPage.razor",
-              "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\BasketPage.razor",
-              "RelativeToolTip": "ShopMobileWebApp\\Components\\Pages\\BasketPage.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADkAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\BasketPage.razor*",
+              "RelativeToolTip": "ShopMobileWebApp\\Components\\Pages\\BasketPage.razor*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T11:25:53.323Z"
+              "WhenOpened": "2025-03-28T11:25:53.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AccountPage.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\AccountPage.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\AccountPage.razor",
               "ToolTip": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\AccountPage.razor",
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Pages\\AccountPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-28T11:25:20.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "LoginPage.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\LoginPage.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\LoginPage.razor",
@@ -377,12 +395,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Pages\\LoginPage.razor",
               "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T11:19:27.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T11:19:27.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "AuthoriztionLayout.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Layout\\AuthoriztionLayout.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Layout\\AuthoriztionLayout.razor",
@@ -390,12 +407,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Layout\\AuthoriztionLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T11:17:56.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T11:17:56.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "StaticClass.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Services\\StaticClass.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Services\\StaticClass.cs",
@@ -403,12 +419,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Services\\StaticClass.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T11:02:22.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T11:02:22.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Layout\\NavMenu.razor",
@@ -416,12 +431,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T10:53:35.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T10:53:35.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Pages\\Home.razor",
@@ -433,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\_Imports.razor",
@@ -445,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Layout\\MainLayout.razor",
@@ -453,12 +467,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T10:52:53.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T10:52:53.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\App.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\App.razor",
@@ -466,12 +479,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T10:52:47.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T10:52:47.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "sysdiagrams.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\sysdiagrams.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\sysdiagrams.cs",
@@ -483,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "EF6.Utility.CS.ttinclude",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Entity Framework Tools\\Templates\\Includes\\EF6.Utility.CS.ttinclude",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Entity Framework Tools\\Templates\\Includes\\EF6.Utility.CS.ttinclude",
@@ -495,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\User.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\User.cs",
@@ -503,12 +515,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Models\\User.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwCQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T10:25:07.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T10:25:07.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\Role.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\Role.cs",
@@ -520,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "OrderProduct.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\OrderProduct.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\OrderProduct.cs",
@@ -532,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Program.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Program.cs",
@@ -544,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Components\\Routes.razor",
@@ -552,12 +563,11 @@
               "RelativeToolTip": "ShopMobileWebApp\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T10:16:25.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T10:16:25.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "NetManager.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Services\\NetManager.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Services\\NetManager.cs",
@@ -569,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ModelData.edmx",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\ModelData.edmx",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\ModelData.edmx",
@@ -580,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "DataManager.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Services\\DataManager.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Services\\DataManager.cs",
@@ -592,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ModelData.tt",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\ModelData.tt",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\ModelData.tt",
@@ -604,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "PhotoProduct.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\PhotoProduct.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\PhotoProduct.cs",
@@ -616,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\Category.cs",
@@ -628,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\Order.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\Order.cs",
@@ -640,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "ShopMobileWebApp.csproj",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\ShopMobileWebApp.csproj",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\ShopMobileWebApp.csproj",
@@ -648,8 +658,7 @@
               "RelativeToolTip": "ShopMobileWebApp\\ShopMobileWebApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-28T08:49:21.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T08:49:21.998Z"
             }
           ]
         }
@@ -674,7 +683,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Ajdar\\OneDrive\\Desktop\\ShopMobile\\ShopMobileWebApp\\ShopMobileWebApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ShopMobileWebApp\\Models\\Product.cs",

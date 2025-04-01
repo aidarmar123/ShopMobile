@@ -2,11 +2,12 @@
 @page "/Account"
 <h3>Account Page</h3>
 <div class="d-block">
-	<H3>@StaticClass.UserAuth.Name</H3>
-	<Text>Orders:</Text>
-	<div class="d-flex flex-column">
-		@if (StaticClass.UserAuth != null)
-		{
+	@if (StaticClass.UserAuth != null)
+	{
+		<H3>@StaticClass.UserAuth.Name</H3>
+		<Text>Orders:</Text>
+		<div class="d-flex flex-column">
+
 			@foreach (var order in StaticClass.UserAuth.Order)
 			{
 				<p>@order.DateOrder.ToString("d") - @order.SumOrder рублей</p>
@@ -14,11 +15,12 @@
 				<hr />
 			}
 
-		}
-	</div>
+
+		</div>
+	}
 </div>
 @code {
-	protected override async Task OnInitializedAsync()
+	protected override void OnInitialized()
 	{
 		if (StaticClass.UserAuth == null)
 			NavigationManager.NavigateTo("/Login", true);

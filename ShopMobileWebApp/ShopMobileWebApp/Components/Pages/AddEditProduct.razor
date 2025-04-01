@@ -2,54 +2,67 @@
 @inject IJSRuntime jSRuntime
 <PageTitle>Product</PageTitle>
 <h3>Product</h3>
-<EditForm Model="contextProduct" FormName="ProductSave" OnValidSubmit="SaveProduct">
-	<DataAnnotationsValidator />
-	<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
+@if(contextProduct is not null)
+{
+	<EditForm Model="contextProduct" FormName="ProductSave" OnValidSubmit="SaveProduct">
+		<DataAnnotationsValidator />
+		<Microsoft.AspNetCore.Components.Forms.ValidationSummary />
 
-	<div>
-		<Label>Name</Label><br />
-		<InputText @bind-Value="@contextProduct.Name" />
-	</div>
+		<div>
+			<Label>Name</Label><br />
+			<InputText @bind-Value="@contextProduct.Name" />
+		</div>
 
-	<div>
-		<Label>Description</Label><br />
-		<InputTextArea @bind-Value="@contextProduct.Description" />
-	</div>
+		<div>
+			<Label>Description</Label><br />
+			<InputTextArea @bind-Value="@contextProduct.Description" />
+		</div>
 
-	<div>
-		<Label>Price in rub</Label><br />
-		<InputNumber @bind-Value="@contextProduct.PriceRub" />
-	</div>
+		<div>
+			<Label>Price in rub</Label><br />
+			<InputNumber @bind-Value="@contextProduct.PriceRub" />
+		</div>
 
-	<div>
-		<Label>Category</Label>
-		<InputSelect @bind-Value="@contextProduct.CategoryId">
-			@foreach (var category in DataManager.Categorys)
-			{
-				<option value="@category.Id">@category.Name</option>
-			}
-		</InputSelect>
-	</div>
-
-	<div>
-		<Label>Photos</Label>
-		<InputFile OnChange="AddPhoto" on multiple accept=".jpg, .png, .jpeg | image/*"></InputFile>
-		@if (contextProduct.PhotoProduct.Count > 0)
-		{
-			<div class="d-inline">
-				@foreach (var photo in contextProduct.PhotoProduct)
+		<div>
+			<Label>Category</Label>
+			<InputSelect @bind-Value="@contextProduct.CategoryId">
+				@foreach (var category in DataManager.Categorys)
 				{
-					<img width="100"
-						 height="100" src='@($"data:image/{photo.Format};base64,{photo.Photo}")'>
+					<option value="@category.Id">@category.Name</option>
 				}
-			</div>
-		}
-	</div>
+			</InputSelect>
+		</div>
+
+		<div>
+			<Label>Photos</Label>
+			<InputFile OnChange="AddPhoto" on multiple accept=".jpg, .png, .jpeg | image/*"></InputFile>
+			@if (contextProduct.PhotoProduct.Count > 0)
+			{
+				<div class="d-inline">
+					@foreach (var photo in contextProduct.PhotoProduct)
+					{
+						<div>
+							<img width="100"
+							height="100" src='@($"data:image/{photo.Format};base64,{photo.Photo}")'>
+							<Button Clicked="@(()=>DeletePhoto(photo))">Delete</Button>
+
+						</div>
+					}
+
+				</div>
+			}
+		</div>
 
 
 
-	<button class="btn-primary" type="submit">Save</button>
-</EditForm>
+		<button class="btn-primary" type="submit">Save</button>
+	</EditForm>
+}
+else
+{
+	<h3>Loading...</h3>
+}
+
 
 @code {
 	[Parameter]
@@ -57,13 +70,19 @@
 	private Product contextProduct { get; set; }
 
 
-	
 
-	protected override void OnInitialized()
+
+	protected override async Task OnInitializedAsync()
 	{
+		await Refresh();
+	}
+	async Task Refresh()
+	{
+		await DataManager.InitData();
 		contextProduct = DataManager.Products.FirstOrDefault(x => x.Id == Id) ?? new Product();
 		
 	}
+
 	private async Task SaveProduct()
 	{
 		if (Id == 0)
@@ -108,7 +127,12 @@
 
 			}
 
-		}		
+		}
 		await InvokeAsync(StateHasChanged);
+	}
+	private async Task DeletePhoto(PhotoProduct photo)
+	{
+		await NetManager.Delete($"api/PhotoProducts/{photo.Id}");
+		await Refresh();
 	}
 }
